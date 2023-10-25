@@ -1,0 +1,2 @@
+# SynFoot
+Synthetic foot dataset
