@@ -1,4 +1,12 @@
+<p align="center">
+  <img width=70% src="https://ollieboyne.github.io/FOUND/images/logos/synfoot_v1.png">
+</p>
+
 # SynFoot
+
+
+![](https://img.shields.io/endpoint?url=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbyRdZfs9jmLEnq_cmwsLwkd_L3R9JroevQqD-duufVXgplUDRJu-dXfSnvaSqYsQxsoaA%2Fexec
+)
 
 Synthetic foot datasets used for foot prediction tasks.
 
@@ -8,22 +16,9 @@ As used in our paper [FOUND](https://ollieboyne.github.io/FOUND).
 
 ## Install
 
-[Installation instructions coming soon]
-
-v1: [Download link coming soon]
-
-As used in [FOUND](https://github.com/OllieBoyne/FOUND) - 50K, RGB, Normal, Masks
-
-## Data format
-
-We provide folders with different data types. As new versions of the dataset are released, they may have different formats available.
-
-| Data type | Description                                                        |
-|-----------|--------------------------------------------------------------------|
-| `rgb`     | RGB images                                                         |
-| `mask`    | Binary mask of foot                                                |
-| `normals` | Predicted normals [(more info)](#normal-format)                    |
-| `labels`  | JSON files with additional information [(more info)](#json-format) |
+| Dataset | Description               | Download Link                                   | Readme                 |
+|---------|---------------------------|-------------------------------------------------|------------------------|
+| V1      | 50K RGB + Normals + Masks | [Download](https://forms.gle/jZqoLPfQrkEa5XUF8) | [readme](v1_layout.md) |
 
 ### Normal format
 
@@ -31,31 +26,6 @@ Our normals are formatted in a *camera* relative reference frame, with RGB corre
 such that (0, 1, 0) -> (128, 255, 128).
 
 In our format, (XYZ) = (left, up, back)
-
-### JSON format
-
-We provide preliminary data that might be useful in our `labels.json`
-
-```yaml
-{
-  "camera" : {
-    "pos": [0, 0, 0], # world camera position
-    "rot": [0, 0, 0], # world camera rotation (euler, radians)
-    "fov": 60.0 # camera field of view (degrees)
-  },
-  
-  "foot" : {
-      "name": "0009-A" # Foot3D scan used   
-  },
-  
-  "keypoints" : {
-      "big toe": [0, 0], # pixel coordinates
-      ...
-  }
-}
-```
-
-Keypoints available are: `['big toe', '2nd toe', '3rd toe', '4th toe', 'little toe', 'heel', 'outer extrema', 'inner extrema']`
 
 
 ### Citation
