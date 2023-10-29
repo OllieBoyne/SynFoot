@@ -4,21 +4,25 @@
 
 # SynFoot
 
+![Samples of our synthetic dataset](images/splash.png)
 
 ![](https://img.shields.io/endpoint?url=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbyRdZfs9jmLEnq_cmwsLwkd_L3R9JroevQqD-duufVXgplUDRJu-dXfSnvaSqYsQxsoaA%2Fexec
 )
 
-Synthetic foot datasets used for foot prediction tasks.
+Synthetic foot dataset used for foot prediction tasks. As featured in:
+
+> **FOUND: <ins>F</ins>oot <ins>O</ins>ptimisation with <ins>U</ins>ncertain <ins>N</ins>ormals for Surface <ins>D</ins>eformation using Synthetic Data**  \
+> Winter Conference on Applications of Computer Vision 2024 \
+> [Oliver Boyne](https://ollieboyne.github.io), [Gwangbin Bae](https://www.baegwangbin.com/), [James Charles](http://www.jjcvision.com), and [Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/) \
+> [[project page]](https://ollieboyne.github.io/FOUND/)
 
 Data was produced using our [BlenderSynth](https://ollieboyne.github.io/BlenderSynth) package.
 
-As used in our paper [FOUND](https://ollieboyne.github.io/FOUND).
-
 ## Install
 
-| Dataset | Description               | Download Link                                   | Readme                 |
-|---------|---------------------------|-------------------------------------------------|------------------------|
-| V1      | 50K RGB + Normals + Masks | [Download](https://forms.gle/jZqoLPfQrkEa5XUF8) | [readme](v1_layout.md) |
+| Dataset | Description                  | Download Link                                   | Readme                 |
+|---------|------------------------------|-------------------------------------------------|------------------------|
+| V1      | 50K RGB, normals, masks & keypoints | [Download](https://forms.gle/jZqoLPfQrkEa5XUF8) | [readme](v1_layout.md) |
 
 ### Normal format
 
