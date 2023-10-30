@@ -2,8 +2,6 @@
   <img width=70% src="https://ollieboyne.github.io/FOUND/images/logos/synfoot_v1.png">
 </p>
 
-# SynFoot
-
 ![Samples of our synthetic dataset](images/splash.png)
 
 ![](https://img.shields.io/endpoint?url=https%3A%2F%2Fscript.google.com%2Fmacros%2Fs%2FAKfycbyRdZfs9jmLEnq_cmwsLwkd_L3R9JroevQqD-duufVXgplUDRJu-dXfSnvaSqYsQxsoaA%2Fexec
