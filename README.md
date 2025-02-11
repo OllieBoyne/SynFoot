@@ -14,6 +14,12 @@ Synthetic foot dataset used for foot prediction tasks. As featured in:
 > [Oliver Boyne](https://ollieboyne.github.io), [Gwangbin Bae](https://www.baegwangbin.com/), [James Charles](http://www.jjcvision.com), and [Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/) \
 > [[arXiv]](https://arxiv.org/abs/2310.18279) [[project page]](https://ollieboyne.github.io/FOUND/)
 
+> **FOCUS: Multi-View Foot Reconstruction from Synthetically Trained Dense Correspondences**  \
+> 3DV 2025 \
+> [Oliver Boyne](https://ollieboyne.github.io) and [Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/) \
+> [[project page]](https://ollieboyne.github.io/FOCUS/)
+
+
 Data was produced using our [BlenderSynth](https://ollieboyne.github.io/BlenderSynth) package.
 
 ## Install
@@ -21,6 +27,7 @@ Data was produced using our [BlenderSynth](https://ollieboyne.github.io/BlenderS
 | Dataset | Description                  | Download Link                                   | Readme                 |
 |---------|------------------------------|-------------------------------------------------|------------------------|
 | V1      | 50K RGB, normals, masks & keypoints | [Download](https://forms.gle/jZqoLPfQrkEa5XUF8) | [readme](v1_layout.md) |
+| V2 | 100K RGB, normals, masks, and dense correspondences | [Download](https://forms.gle/jZqoLPfQrkEa5XUF8) | [readme](v2_layout.md) |
 
 ### Normal format
 
@@ -40,5 +47,14 @@ If you use our work, please cite:
             author={Boyne, Oliver, and Bae, Gwangbin, and Charles, James and Cipolla, Roberto},
             booktitle={Winter Conference on Applications of Computer Vision (WACV)},
             year={2024}
+}
+```
+
+```
+@inproceedings{boyne2025focus,
+            title={FOCUS: Multi-View Foot Reconstruction from Synthetically Trained Dense Correspondences},
+            author={Boyne, Oliver and Cipolla, Roberto},
+            booktitle={2025 International Conference on 3D Vision (3DV)},
+            year={2025}
 }
 ```
