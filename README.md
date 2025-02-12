@@ -17,7 +17,7 @@ Synthetic foot dataset used for foot prediction tasks. As featured in:
 > **FOCUS: Multi-View Foot Reconstruction from Synthetically Trained Dense Correspondences**  \
 > 3DV 2025 \
 > [Oliver Boyne](https://ollieboyne.github.io) and [Roberto Cipolla](https://mi.eng.cam.ac.uk/~cipolla/) \
-> [[project page]](https://ollieboyne.github.io/FOCUS/)
+> [[arXiv]](https://arxiv.org/abs/2502.06367) [[project page]](https://ollieboyne.github.io/FOCUS/)
 
 
 Data was produced using our [BlenderSynth](https://ollieboyne.github.io/BlenderSynth) package.
